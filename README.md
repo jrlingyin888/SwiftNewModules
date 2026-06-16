@@ -15,6 +15,14 @@ Think [21st.dev](https://21st.dev) (curated React components for AI agents), but
 
 ---
 
+## See it in action
+
+<!-- DROP VIDEO HERE: in GitHub's web editor, click on the line below and drag in your demo .mp4 — GitHub uploads it and inserts a player automatically. -->
+
+_A quick tour of components from the catalog (incl. iOS 26 Liquid Glass), running in the demo app._
+
+---
+
 ## The problem
 
 Coding agents (Claude Code, Cursor, Copilot) are *great* at logic and *mediocre* at SwiftUI. They:
