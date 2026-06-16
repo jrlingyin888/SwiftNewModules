@@ -1,0 +1,13 @@
+# Smithery listing config — verify against https://smithery.ai/docs before submitting.
+# SwiftForge runs as a local stdio MCP server via npx.
+startCommand:
+  type: stdio
+  # No configuration required — the catalog ships with the package.
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({
+      command: "npx",
+      args: ["-y", "swiftforge-mcp"]
+    })

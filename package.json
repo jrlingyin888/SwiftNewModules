@@ -1,0 +1,51 @@
+{
+  "name": "swiftforge-mcp",
+  "version": "0.2.1",
+  "mcpName": "io.github.jrlingyin888/swiftforge",
+  "description": "A curated, current, production-grade SwiftUI component library served to your AI coding agent (Claude Code / Cursor) over MCP — like 21st.dev, but for SwiftUI.",
+  "type": "module",
+  "bin": {
+    "swiftforge-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "smoke": "node scripts/smoke.js",
+    "validate": "node scripts/validate.js",
+    "catalog:docs": "node scripts/make-catalog-doc.js",
+    "demo:gen": "node scripts/make-demo.js",
+    "demo:build": "cd examples/SwiftForgeDemo && xcodebuild -project SwiftForgeDemo.xcodeproj -target SwiftForgeDemo -sdk iphonesimulator -configuration Debug CODE_SIGNING_ALLOWED=NO build"
+  },
+  "files": [
+    "src",
+    "catalog"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "swiftui",
+    "swift",
+    "ios",
+    "claude-code",
+    "cursor",
+    "ai",
+    "components",
+    "liquid-glass"
+  ],
+  "license": "MIT",
+  "author": "SwiftForge",
+  "homepage": "https://github.com/jrlingyin888/SwiftNewModules#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrlingyin888/SwiftNewModules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrlingyin888/SwiftNewModules/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1"
+  }
+}
