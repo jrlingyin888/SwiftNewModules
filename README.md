@@ -17,7 +17,9 @@ Think [21st.dev](https://21st.dev) (curated React components for AI agents), but
 
 ## See it in action
 
-<!-- DROP VIDEO HERE: in GitHub's web editor, click on the line below and drag in your demo .mp4 — GitHub uploads it and inserts a player automatically. -->
+
+https://github.com/user-attachments/assets/c2460a1d-fb0d-47e0-9d1b-91e6a784717b
+
 
 _A quick tour of components from the catalog (incl. iOS 26 Liquid Glass), running in the demo app._
 
