@@ -5,6 +5,9 @@ All notable changes to SwiftForge are documented here.
 ## [Unreleased]
 - List on MCP registries (official → auto-propagates to PulseMCP etc.).
 
+## [0.2.2] — 2026-06-16
+- Republish so the npm README matches GitHub: the published package README no longer contains the founder-facing monetization section; adds the "See it in action" demo + logo.
+
 ## [0.2.1] — 2026-06-10
 - Add `mcpName` to package.json for Official MCP Registry npm-ownership verification.
 

@@ -1,6 +1,6 @@
 {
   "name": "swiftforge-mcp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "mcpName": "io.github.jrlingyin888/swiftforge",
   "description": "A curated, current, production-grade SwiftUI component library served to your AI coding agent (Claude Code / Cursor) over MCP — like 21st.dev, but for SwiftUI.",
   "type": "module",
